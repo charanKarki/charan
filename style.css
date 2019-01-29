@@ -1,0 +1,107 @@
+body {
+  background: rgb(63, 63, 63);
+}
+
+
+
+.jumbotron .display-4 {
+  font-size: 20px !important;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(39, 39, 39, 0.39);
+}
+
+#imageArea {
+  position: relative;
+  top: -60px;
+  width: 100%;
+  height: 40vw;
+  background-image: linear-gradient(to right, #2e303155, #292b2a55),
+    url("./img/apple-business-computer-39284\ \(1\).jpg");
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *
+  */
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-size: 80%; */
+}
+
+#imgAreaJmbo {
+  background: #00000000;
+  padding-top: 10vw;
+}
+
+#gridContainer .card {
+  background: url("./img/ui\ gif.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 10vh auto 10vh auto;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding-top: 6vw;
+  height: 100vh;
+  width: 100%;
+}
+
+.display-1 {
+  font-size: 6vw;
+}
+
+.jumbotron .display-3 {
+  font-size: 4vw;
+}
+
+.jumbotron .lead {
+  font-size: 2vw;
+}
+
+#ui {
+  background-image: url("./img/apple-business-computer-39284\ \(1\).jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#ux {
+  background-image: url("./img/blur-blurred-background-cellphone-1092644\ \(1\).jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+
+#hosting {
+  background: url("./img/blur-business-computer-230544\ \(1\).jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+
+
+  background-repeat: no-repeat;
+
+}
+
+
+
+.jumbotron {
+  padding-top: 6vw;
+  background: #0cebeb;
+  background: linear-gradient(to right, #29ffc6c8, #20e3b2c8, #0cebebc8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+  background: black;
+  height: 100px;
+
+}
