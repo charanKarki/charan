@@ -96,6 +96,7 @@ body {
 .jumbotron {
   padding-top: 6vw;
   background: #0cebeb;
+  height: 50vh;
   background: linear-gradient(to right, #29ffc6c8, #20e3b2c8, #0cebebc8);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
